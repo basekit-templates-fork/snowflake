@@ -1,7 +1,7 @@
 {
-	"name":"Sarasota",
-	"thumbnail":"thumbnail.png",
-	"screenshot":"thumbnail.png",
+	"name":"Snowflake",
+	"thumbnail":"snowflake.png",
+	"screenshot":"snowflake.png",
     "templateType":"standard",
 	"pageTypes":[
 		"default",
