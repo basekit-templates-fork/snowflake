@@ -1,4 +1,4 @@
-sarasota
+Snowflake
 ========
 
-Standard template
+BaseKit's Standard template
