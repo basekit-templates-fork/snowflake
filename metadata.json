@@ -4,8 +4,8 @@
 	"screenshot":"snowflake.png",
     "templateType":"standard",
 	"pageTypes":[
-		"default",
 		"home"
+		
 	],
 	"images":[
         "images/image-1.jpg",
