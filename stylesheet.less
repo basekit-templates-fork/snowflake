@@ -548,7 +548,8 @@ button.btn,
 .blog-search-form button,
 .widget.ecombasket .ecombasket-list-container .ecombasket-checkout-wrap .ecombasket-checkout-link,
 .widget.ecomcheckout .checkout-order-button,
-.widget.ecombasket .ecombasket-pull {
+.widget.ecombasket .ecombasket-pull,
+.advancedcontactform button {
 	cursor: pointer;
 	background-color: @font-swatch7-background-color;
 	border: 1px solid darken(@font-swatch7-background-color, 20%);
@@ -638,10 +639,6 @@ form button {
 	vertical-align: middle;
 }
 
-.form-group {
-	padding-bottom: 10px;
-}
-
 .widget.ecomproduct .ecom-product .ecom-product-info .ecom-product-variation select,
 .widget.ecomcheckout .delivery select,
 select,
@@ -652,7 +649,9 @@ input[type=search],
 textarea,
 .contactform input,
 .contactform textarea,
-.widget.profile form fieldset input {
+.widget.profile form fieldset input,
+.advancedcontactform input,
+.advancedcontactform textarea {
 	text-indent: 0;
 	padding: 8px 9px 10px;
 	border: 1px solid @borders-blocks;
@@ -666,6 +665,20 @@ textarea,
 		border: 1px solid darken(@borders-blocks, 20%);
 		background-color: @color-swatch1;
 	}
+}
+
+.advancedcontactform {
+    .select-wrap {
+        margin: 10px 0 10px;
+        display: inline-block;
+    }
+    .option-list {
+        margin: 0px 0 10px;
+    }
+    label {
+        width: 100%;
+        display: block;
+    }
 }
 
 select::-ms-expand {
