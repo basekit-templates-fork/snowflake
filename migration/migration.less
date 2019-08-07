@@ -15,6 +15,15 @@
   width: 100%;
   max-width: 100%;
   margin: 0;
+
+  @media @tablet {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media @mobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
   
 // Main content spacing (replace with corresponding template class)
@@ -29,6 +38,9 @@
 
 .bk-zone .row {
     margin-left: 0;
+    @media @mobile {
+        margin: 0;
+    }
 }
 
 
@@ -58,8 +70,14 @@
   max-width: @container-width;
   width: 98.63%;
 
+  @media @tablet {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   @media @mobile {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
