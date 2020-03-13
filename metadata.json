@@ -1,5 +1,6 @@
 {
 	"name":"Snowflake",
+	"versionTenCompatible": 1,
 	"thumbnail":"snowflake.png",
 	"screenshot":"snowflake-screenshot.jpg",
     "templateType":"standard",
