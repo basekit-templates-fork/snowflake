@@ -609,7 +609,7 @@ button.btn,
 	border: 1px solid darken(@font-swatch7-background-color, 20%);
 }
 
-button:disabled,
+button.btn:disabled,
 button.btn:disabled:hover,
 .widget.ecomcheckout .checkout-order-button:disabled {
 	background-color: @borders-blocks;
@@ -1594,6 +1594,10 @@ input[type="search"]::-webkit-search-decoration {
         color: darken(@color-swatch5, 30%);
         letter-spacing: @font-swatch5-letter-spacing;
     }
+}
+
+[data-name="gallery"] {
+	overflow: hidden;
 }
 
 .widget.gallery {
